@@ -1,13 +1,15 @@
 
-import './App.css'
+import "./App.css";
+import {Button} from "@mui/material";
 
 function App() {
 
   return (
-    <div>
-      <h1> Hola mundo</h1>
-    </div>  
-  )
+    <>
+    <Button variant="text">Text</Button>
+<Button variant="contained">Contained</Button>
+<Button variant="outlined">Outlined</Button>  
+</>)
 }
 
 export default App
